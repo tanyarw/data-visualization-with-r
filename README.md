@@ -1,9 +1,8 @@
-# data-visualization
+# Data Visualization
 CSE3020 Data Visualization using R
 
 ## AST01
-Consider the following transportation dataset of three districts. It describes district code, District name, Transport mode, Total population and people who drove alone.
-
+Consider the following transportation dataset of three districts. It describes district code, District name, Transport mode, Total population and people who drove alone<br>
 <table>
   <tr>
     <th>D_code</th>
@@ -22,7 +21,7 @@ Consider the following transportation dataset of three districts. It describes d
     <td>78</td> <td>Thirupatthur</td> <td></td> <td>797818</td> <td>21348</td>
   </tr>
   <tr>
-    <td>78</td> <td>Thirupatthur</td> <td></td> <td>3865125</td> 7<td>5246</td></tr>
+    <td>78</td> <td>Thirupatthur</td> <td></td> <td>3865125</td> <td>75246</td></tr>
   <tr>
     <td>78</td> <td>Thirupatthur</td> <td>Bicycle</td> <td>42880</td> <td>1088</td>
   </tr>
@@ -46,3 +45,4 @@ Write R code for the below questions
 - Count the number of selfdrive in each district.
 - Print max and min of pop_total.
 - Derive new information/print "percentage of people who drove alone in all three districts" and also rank districts based on the % of people who used bicycle.
+<hr>
