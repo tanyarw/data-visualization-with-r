@@ -9,19 +9,25 @@ transp.data <- data.frame(
 )
 print(transp.data)
 
-# b. How many observations of 'transp_mode' are missing from the dataframe
-sum(is.na(transp.data$transp_mode))
+# b. How many observations of 'district' are missing from the dataframe
+sum(is.na(transp.data))
 
 # c. Count the number of selfdrive in each district.
-aggregate(transp.data$selfdrive_total, by=list(Category=transp.data$district), FUN=sum)
 tapply(transp.data$selfdrive_total, transp.data$district, FUN=sum)
 
 # d. Print max and min of pop_total.
 print(max(transp.data$pop_total))
 print(min(transp.data$pop_total))
 
-# e. Derive new information/print "percentage of people who drove alone in
-# all three districts" and also rank districts based on the % of people who
-# used bicycle.
+# e. Derive new information/print "percentage of people who drove alone in all three districts"  
+x<-aggregate(transp.data$selfdrive_total, by=list(Category=transp.data$district), FUN=sum)
+y<-aggregate(transp.data$pop_total, by=list(Category=transp.data$district), FUN=sum)
+cat(x$Category,"\n",x$x/y$x*100)
+
+#rank districts based on the % of people who used bicycle.
 transp.data$selfdrive_percent <- transp.data$selfdrive_total/transp.data$pop_total*100
-print(transp.data)
+BicycleDf<- transp.data[transp.data$transp_mode=='Bicycle',]
+result<-aggregate(BicycleDf$selfdrive_percent, by=list(Category=BicycleDf$district), FUN=sum)
+result2<- result[order(result$x),]
+result2
+rank(result$x)
