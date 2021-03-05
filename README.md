@@ -46,3 +46,22 @@ Write R code for the below questions
 - Print max and min of pop_total.
 - Derive new information/print "percentage of people who drove alone in all three districts" and also rank districts based on the % of people who used bicycle.
 <hr>
+
+
+## AST02
+The file "EconomistData.csv" contains information about Human Development Index and Corruption Perception Index. Perform the following plotting tasks using R
+- Create stacked bar chart for Rank (group based on Region). 
+- Create a scatter plot with CPI on the x axis and HDI on the y axis. 
+- Color the points green. 
+- Map the color of the points to Region. 
+- Make the points bigger by setting size to 4 
+- Map the size of the points to HDI.Rank 
+- Mapping Data to Symbols 
+- HDI.Rank-Data Labels on Hover 
+- a. Add an appropriate title to the plot using the layout function and title argument. <br>
+  b. Add an appropriate x-axis label using the xaxis argument. xaxis takes a list of attribute values.<br>
+  c. Add an appropriate y-axis label. <br>
+- Display annotations for country which top and lowest HDI.Rank
+- Display annotations for our country (data label with HDI.Rank)
+- Save plot
+ 
