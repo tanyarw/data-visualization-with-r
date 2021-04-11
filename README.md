@@ -66,8 +66,8 @@ The file "EconomistData.csv" contains information about Human Development Index 
 - Save plot
 <hr>
 
-# Assignment 3 [AST03]
-The file "books.csv" contains information about books collection. Use the GGPLOT2 library to execute the following.
+## Assignment 3 [AST03]
+The file "books.csv" contains information about a collection of books. Use the GGPLOT2 library to execute the following.
 - Remove NA values
 - Visualize frequency distribution of checkouts in the book dataset
 - Visualize boxplot plot high usage books by call number class (Hint: derive new variable high usage books which have more than 10 checkouts) and color by subCollection- any three category
