@@ -1,8 +1,8 @@
 # Data Visualization
 CSE3020 Data Visualization using R
 
-## AST01
-Consider the following transportation dataset of three districts. It describes district code, District name, Transport mode, Total population and people who drove alone<br>
+## Assignment 1 [AST01]
+Consider the following transportation dataset of three districts. It describes district code, District name, Transport mode, Total population and people who drove alone. <br>
 <table>
   <tr>
     <th>D_code</th>
@@ -46,3 +46,32 @@ Write R code for the below questions
 - Print max and min of pop_total.
 - Derive new information/print "percentage of people who drove alone in all three districts" and also rank districts based on the % of people who used bicycle.
 <hr>
+
+
+## Assignment 2 [AST02]
+The file "EconomistData.csv" contains information about Human Development Index and Corruption Perception Index. Perform the following plotting tasks using R.
+- Create stacked bar chart for Rank (group based on Region). 
+- Create a scatter plot with CPI on the x axis and HDI on the y axis. 
+- Color the points green. 
+- Map the color of the points to Region. 
+- Make the points bigger by setting size to 4 
+- Map the size of the points to HDI.Rank 
+- Mapping Data to Symbols 
+- HDI.Rank-Data Labels on Hover 
+- a. Add an appropriate title to the plot using the layout function and title argument. <br>
+  b. Add an appropriate x-axis label using the xaxis argument. xaxis takes a list of attribute values.<br>
+  c. Add an appropriate y-axis label. <br>
+- Display annotations for country which top and lowest HDI.Rank
+- Display annotations for our country (data label with HDI.Rank)
+- Save plot
+<hr>
+
+## Assignment 3 [AST03]
+The file "books.csv" contains information about a collection of books. Use the GGPLOT2 library to execute the following.
+- Remove NA values
+- Visualize frequency distribution of checkouts in the book dataset
+- Visualize boxplot plot high usage books by call number class (Hint: derive new variable high usage books which have more than 10 checkouts) and color by subCollection- any three category
+- Visualize stacked bar and group chart high usage books by call number class (Hint: derive new variable high usage books which have more than 10 checkouts) and color by subCollection- any four category
+- Create a bar plot that depicts the number of items in each sub-collection, faceted by format. Arrange sub plots horizontally.
+- Apply various themes in the above plots.
+
