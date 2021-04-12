@@ -67,3 +67,4 @@ p
 
 
 # Save plot
+htmlwidgets::saveWidget(p, "index.html")
