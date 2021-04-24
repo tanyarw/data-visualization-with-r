@@ -1,5 +1,5 @@
 # Data Visualization
-CSE3020 Data Visualization using R
+CSE3020 Data Visualization | Learn R
 
 ## Assignment 1 [AST01]
 Consider the following transportation dataset of three districts. It describes district code, District name, Transport mode, Total population and people who drove alone <br>
