@@ -90,3 +90,8 @@ Consider "nycflights13" — flights dataset
 - Select top 50 largest arrival delays
 - Convert delay cost dataframe to a matrix. Hint: delay_mat<- delay_df.matrix(top50)
 - Visualize Heat Map. Hint: c("Flights","Distance","Delay","Cost Index")
+<hr>
+
+## Assignment 6 [AST06]
+- Write R code to visualize Word cloud for Tweets related to US-election about Joe Biden.
+- Explore the different colour theme and shapes.
